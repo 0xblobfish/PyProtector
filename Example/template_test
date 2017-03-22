@@ -1,0 +1,28 @@
+#!/usr/bin/python
+#coding:utf-8
+from time import time as IMP001
+VAR001=IMP001()
+import sys as IMP002
+
+class CLASS001():
+    def __init__(self):
+        print('Test class init !')
+
+    def FUNC001(self):
+        print('Function class test')
+
+def FUNC002(i):
+    return i+1
+
+if __name__=='__main__':
+    print('This is a test !')
+    a = CLASS001()
+    a.FUNC001()
+    VAR002=[NBR]2[NBR]
+    VAR002=FUNC002(VAR002)
+    VAR003=[NBR]48.3[NBR]
+    VAR004=[NBR]-3254[NBR]
+    print('3 : '+str(VAR002)+' 48.3 : '+ str(VAR003)+ ' -3254 : '+str(VAR004))
+
+print('Execution time : '+str(IMP001()-VAR001) + ' s')
+IMP002.exit(0)
