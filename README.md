@@ -15,13 +15,13 @@ To do it very quickly, you can use an IDE and use the refactoring to change the 
 Example :
 
 >**from sys import exit
-def foo(i):
-  x = 12
-  return (i+x) 
-a=foo(3.2)
-if (__name__=="__main__")==True:
-  print("a : "+a)  
-  exit(0)**
+>def foo(i):
+>  x = 12
+>  return (i+x) 
+>a=foo(3.2)
+>if (__name__=="__main__")==True:
+>  print("a : "+a)  
+>  exit(0)**
   
 Devient :
 
