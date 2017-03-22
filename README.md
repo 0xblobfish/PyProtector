@@ -12,6 +12,8 @@ Using PyProtector you can :
 PyProtector use special **templates** to generate the obfuscated script.
 To convert your python file to a template file, not a lot of work is needed !
 To do it very quickly, you can use an IDE and use the refactoring to change the variables, function, importation names.
+The advantage of using template file is the fact that it allows the user to control the obfuscation of the file. Obfuscate all the variables, strings in a big file have an impact on the execution time !
+
 Example script:
 
 `from sys import exit`<br />
@@ -36,3 +38,8 @@ Converted to template format :
 - `print("a : "+VAR001)`<br />
 - `IMP001(0)**`<br />
   
+The **global variable** names have to be numbered from VAR001 to VAR999<br />
+The **local variables** (e.g. in function, class, lambda function,...) names have to be numbered from LOC001 to LOC999<br />
+The **function** names have to be numbered from FUNC001 to FUNC999<br />
+The **class** names have to be numbered from CLASS001 to CLASS999<br />
+The **numbers** have to be between two _[NBR]_ tags<br />
