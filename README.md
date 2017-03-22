@@ -1,4 +1,6 @@
-PyProtector is a Python obfuscator. PyProtector allows you to protect your python codes !
+## PyProtector is a Python obfuscator !
+
+PyProtector allows you to protect your python codes.<br />
 Using PyProtector you can :
 - [x] Invert the boolean values
 - [x] Obfuscate numbers
