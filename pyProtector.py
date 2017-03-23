@@ -7,8 +7,7 @@ import py_compile
 
 
 def hide_strings(content):
-    # WARNING PAS de ''' STRINGS SUR PLUSIEURS LIGNES !
-    # pas prise en charge quand " et ' sur même ligne
+    # WARNING docstrings can create some bugs
     data = content.split('\n')
     temp = []
     for line in data:
